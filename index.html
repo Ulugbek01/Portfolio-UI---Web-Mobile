@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- Navbar section -->
+    <div class="nav-container">
+      <nav class="navbar">
+        <ul class="navigation-items">
+          <li class="navigation-item"><a href="#featured-works">Works</a></li>
+          <li class="navigation-item inline-block">
+            <a href="#blog" class="navigation-item__link">Blog</a>
+            <ul class="dropdown-menu">
+              <li class="dropdown-menu__item"><a href="#">Blog</a></li>
+              <li class="dropdown-menu__item line-item">
+                <a href="#">Blog Details</a>
+              </li>
+            </ul>
+          </li>
+          <li class="navigation-item"><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    <!-- /Navbar section -->
+
+    <!-- Intro section -->
+    <div class="container">
+      <section class="main-intro" id="main-intro">
+        <div class="main-intro__info">
+          <h1 class="about-me__title">
+            Hi, I am John, <br />
+            Creative Technologist
+          </h1>
+          <p class="about-me__more">
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+            sint. Velit officia consequat duis enim velit mollit. Exercitation
+            veniam consequat sunt nostrud amet.
+          </p>
+          <a href="#" class="about-me__link"><span>Download Resume</span></a>
+        </div>
+        <div class="main-intro__image">
+          <img src="./image/profile-img.png" alt="profile-img" />
+        </div>
+      </section>
+    </div>
+    <!-- /Intro section -->
+
+    <!-- Blog section -->
+    <section class="blog" id="blog">
+      <div class="container">
+        <div class="blog-header">
+          <p class="blog-header__subject">Recent posts</p>
+          <a href="#" class="blog-more">View all</a>
+        </div>
+        <div class="main-content__wrapper">
+          <div class="blog-main__content">
+            <h3 class="blog-title">Making a design system from scratch</h3>
+            <div class="blog-deta">
+              <span>12 Feb 2020</span>
+              <span class="line"></span>
+              <span>Design, Pattern</span>
+            </div>
+            <p class="blog__discription">
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint. Velit officia consequat duis enim velit mollit.
+              Exercitation veniam consequat sunt nostrud amet.
+            </p>
+          </div>
+          <div class="blog-main__content">
+            <h3 class="blog-title">Creating pixel perfect icons in Figma</h3>
+            <div class="blog-deta">
+              <span>12 Feb 2020</span>
+              <span class="line"></span>
+              <span>Figma, Icon Design</span>
+            </div>
+            <p class="blog__discription">
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint. Velit officia consequat duis enim velit mollit.
+              Exercitation veniam consequat sunt nostrud amet.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /Blog section -->
+
+    <!-- Featured works section -->
+    <div class="container">
+      <section class="featured-works" id="featured-works">
+        <p class="featured-works__title">Featured works</p>
+        <div class="featured-works__item">
+          <div class="item-image">
+            <img src="./image/item-1.png" alt="item-1" />
+          </div>
+          <div class="item-content">
+            <h3 class="item-content__title">Designing Dashboards</h3>
+            <div class="item-cotent__deta">
+              <span>2020</span>
+              <span>Dashboard</span>
+            </div>
+            <p class="item-cotent__discription">
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint. Velit officia consequat duis enim velit mollit.
+              Exercitation veniam consequat sunt nostrud amet.
+            </p>
+          </div>
+        </div>
+        <div class="featured-works__item">
+          <div class="item-image">
+            <img src="./image/item-2.png" alt="item-2" />
+          </div>
+          <div class="item-content">
+            <h3 class="item-content__title">Vibrant Portraits of 2020</h3>
+            <div class="item-cotent__deta">
+              <span>2018</span>
+              <span>Illustration</span>
+            </div>
+            <p class="item-cotent__discription">
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint. Velit officia consequat duis enim velit mollit.
+              Exercitation veniam consequat sunt nostrud amet.
+            </p>
+          </div>
+        </div>
+        <div class="featured-works__item">
+          <div class="item-image">
+            <img src="./image/item-3.png" alt="item-3" />
+          </div>
+          <div class="item-content">
+            <h3 class="item-content__title">36 Days of Malayalam type</h3>
+            <div class="item-cotent__deta">
+              <span>2018</span>
+              <span>Typography</span>
+            </div>
+            <p class="item-cotent__discription">
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint. Velit officia consequat duis enim velit mollit.
+              Exercitation veniam consequat sunt nostrud amet.
+            </p>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- /Featured works section -->
+
+    <!-- Footer section -->
+    <footer class="footer" id="footer">
+      <ul class="social-network__items">
+        <li>
+          <a href="#"><i class="fab fa-facebook"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </li>
+      </ul>
+      <p class="footer-text">Copyright ©2020 All rights reserved</p>
+    </footer>
+    <!-- /Footer section -->
+    <script src="./js/main.js"></script>
+  </body>
+</html>
